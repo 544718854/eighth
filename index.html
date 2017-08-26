@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/commn.css">
+        <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+       <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+      <script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+    </head>
+    <body>
+    	<header class="head gWidth">
+    		<p>分类</p>
+    		<span class="c1"><img src="img/tu1.png"></span>
+			
+    		<input type="text" value="输入搜索关键词">
+    		<span class="c2"><img src="img/tu2.png"></span>
+			<p class="iconfont icon-sousuo"></p>
+
+    	</header>
+    	<img src="img/tu3.png" alt="" class="lunbo gWidth">
+    	<div class="common">
+    		<a href=""><img src="img/tu4.png" alt=""></a>
+    		<a href=""><img src="img/tu4.png" alt=""></a>
+    		<a href=""><img src="img/tu4.png" alt=""></a>
+    		<a href=""><img src="img/tu4.png" alt=""></a>
+    		<a href=""><img src="img/tu4.png" alt=""></a>
+    		<a href=""><img src="img/tu4.png" alt=""></a>
+    		<a href=""><img src="img/tu4.png" alt=""></a>
+    		<a href=""><img src="img/tu4.png" alt=""></a>
+    	</div>
+    	<div class="neirong">
+    		<p class="p1">全网最低价</p>
+    		<a href=""><img src="img/tu5.png"  alt="" class="img1"></a>
+    		<a href=""><img src="img/tu6.png" alt="" class="img2"></a>
+    		<a href=""><img src="img/tu7.png" alt="" class="img2"></a>
+    	</div>
+    	<img src="img/tu8.png" alt="" class="tu8">
+    	<div class="neirong">
+    		<p class="p1">美美哒</p>
+    		<a href=""><img src="img/tu5.png"  alt="" class="img1"></a>
+    		<a href=""><img src="img/tu6.png" alt="" class="img2"></a>
+    		<a href=""><img src="img/tu7.png" alt="" class="img2"></a>
+    	</div>
+    	<img src="img/tu8.png" alt="" class="tu8">
+    	<div class="neirong">
+    		<p class="p1">美美哒 </p>
+    		<a href=""><img src="img/tu5.png"  alt="" class="img1"></a>
+    		<a href=""><img src="img/tu6.png" alt="" class="img2"></a>
+    		<a href=""><img src="img/tu7.png" alt="" class="img2"></a>
+    	</div>
+    	<img src="img/tu9.png" alt="" class="tu9">
+    	<p class="p2"> <a href="">触屏版</a>  　|　 <a href="">电脑板</a>  　|　 <a href="">脑残版</a> </p>
+    	 <img src="img/tu10.png" alt="" class="tu10">
+    	<p class="p3">咨询电话　：１５０３３０后边啥都行</p>
+    </body>
+</html>
